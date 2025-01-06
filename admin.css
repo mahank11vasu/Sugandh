@@ -1,0 +1,373 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+#navbar {
+    background-color: #733843;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20vw;
+    height: 100vh;
+    position:fixed;
+}
+
+#navflex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 10vw;
+    height: 90vh;
+}
+
+.navitems{
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#content1 {
+    display: flex;
+    align-items:center;
+    margin-left:20vw;
+   justify-content:center;
+    /* padding: 20px; */
+    width: 80vw;
+    height:50vh;
+    border:2px solid red;
+}
+
+#contentflex1{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    /* padding: 20px; */
+    width: 78vw;
+    height:50vh;
+    border:2px solid blue;
+}
+#content2 {
+    display: flex;
+    align-items:center;
+    margin-left:20vw;
+   justify-content:center;
+    /* padding: 20px; */
+    width: 80vw;
+    height:130vh;
+    border:2px solid red;
+}
+
+#contentflex2{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    /* padding: 20px; */
+    width: 78vw;
+    height:125vh;
+    /*border:2px solid blue;*/
+}
+#content3{
+    display: flex;
+    align-items:center;
+    margin-left:20vw;
+   justify-content:center;
+    /* padding: 20px; */
+    width: 80vw;
+    height:50vh;
+    /*border:2px solid red;*/
+}
+
+#contentflex3{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    /* padding: 20px; */
+    width: 78vw;
+    height:50vh;
+    /*border:2px solid blue;*/
+}
+
+.head1{
+    font-size:55px;
+}
+.head2{
+    font-size:35px;
+}
+.head3{
+    font-size:25px;
+}
+.head4{
+    font-size:20px;
+}
+
+#export-users{
+    height: 8vh;
+    width: 12vw;
+    background-color:#d9c2ad;
+    color: #a6896f ;
+    border: none;
+    font-size: 20px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+table{
+    width: 100%;
+    height:23vh;
+    display:block;
+    overflow-y:auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    width:20vw;
+    text-align: left;
+    /*border:2px solid black;*/
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color:#d9c2ad;
+    color: #a6896f ;
+}
+
+.action-buttons button {
+    margin: 5px;
+    padding: 5px 10px;
+    background-color: #d9534f;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.action-buttons button:hover {
+    background-color: #c9302c;
+}
+
+#formflex{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-around;
+    flex-direction:column;
+    width:60vw;
+    height:75vh;
+    /*border:2px solid green;*/
+}
+
+#rowsflex{
+    display:flex;
+    align-items:flex-start;
+    justify-content:space-around;
+    width:60vw;
+    height:62vh;
+    /*border:2px solid green;*/
+}
+
+#row1{
+    display:flex;
+    align-items:flex-start;
+    flex-direction:column;
+    justify-content:space-around;
+    width:30vw;
+    height:62vh;
+    /*border:2px solid black;*/
+}
+
+#row2{
+    display:flex;
+    align-items:flex-start;
+    flex-direction:column;
+    justify-content:space-around;
+    width:30vw;
+    height:62vh;
+    /*border:2px solid black;*/
+}
+
+.labels{
+    color: #a6896f;
+    font-size: 22px;
+}
+
+.fields{
+    border: 3px solid #a6896f;
+    background: transparent;
+    height: 5vh;
+    width: 25vw;
+    color: #a6896f;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.format{
+    border: 3px solid #a6896f;
+    background: transparent;
+    height: 7vh;
+    width: 25vw;
+    color: #a6896f;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#description{
+    resize:none;
+    height:10vh;
+    border: 3px solid #a6896f;
+    background: transparent;
+    width: 25vw;
+    color: #a6896f;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#save-product{
+    height: 8vh;
+    width: 10vw;
+    background-color:#d9c2ad;
+    color: #a6896f ;
+    border: none;
+    font-size: 20px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+#customizable{
+    border: 3px solid #a6896f;
+    background: transparent;
+    color: #a6896f;
+    border-radius: 5px;
+}
+
+#image{
+    color: #a6896f;
+    font-size: 18px;
+}
+
+.containercheck {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.containercheck input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+    background-color: transparent;
+  border:2px solid #a6896f;
+}
+
+/* When the checkbox is checked, add a blue background */
+.containercheck input:checked ~ .checkmark {
+  background-color: #a6896f;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.containercheck input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.containercheck .checkmark:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#content4{
+    display: flex;
+    align-items:center;
+    margin-left:20vw;
+   justify-content:center;
+    /* padding: 20px; */
+    width: 80vw;
+    height:100vh;
+    /*border:2px solid red;*/
+}
+
+#contentflex4{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    /* padding: 20px; */
+    width: 78vw;
+    height:70vh;
+    /*border:2px solid blue;*/
+}
+
+#update {
+    height:5vh;
+    width:8vw;
+    font-size:18px;
+    margin-top:2vh;
+    background-color: #2828c5;
+    color:white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#update:hover {
+    background-color: #2323b3;
+}
+
+#status{
+    border: 3px solid #a6896f;
+    background: transparent;
+    height: 5vh;
+    width: 10vw;
+    color: #a6896f;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#orders{
+    width: 100%;
+    height:50vh;
+    display:block;
+    overflow-y:auto;
+    border-collapse: collapse;
+}
